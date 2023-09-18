@@ -33,3 +33,13 @@ Import the frontend panel on Appsmith. To do this, import the `services/infra/da
 | Port | `5432` |
 | User | `appsmith` |
 | Password | `appsmith` |
+
+## Send mock data
+
+To use mock data, use the mock scripts in `services/mock_events`:
+
+```bash
+cd services/mock_events/
+pip3 install -r requirements.txt
+python3 main.py
+```
